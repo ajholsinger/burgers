@@ -6,7 +6,7 @@ USE burgers_db;
 
 CREATE TABLE burgers(
   id int(10) not null auto_increment,
-  burger_name varchar(25) not null,
+  burger_name varchar(25),
   devoured boolean,
   primary key(id)
 );
